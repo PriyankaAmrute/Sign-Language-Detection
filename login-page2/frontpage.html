@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Language Interpreter Login</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+      }
+      form {
+        background-color: #fff;
+        width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      }
+      label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="password"] {
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      }
+      input[type="submit"] {
+        background-color: #008CBA;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #005580;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="post">
+      <h1>Sign Language Interpreter Login</h1>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <input type="submit" value="Login">
+    </form>
+  </body>
+</html>
