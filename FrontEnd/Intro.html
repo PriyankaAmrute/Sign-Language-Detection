@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTML>
+    <BODY>
+        <head>
+            <title>Bootstrap Example</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+          </head>
+        <STYLE>
+            .container 
+        {
+            position: relative;
+            text-align: center;
+            color: black;
+        }
+
+        .bg-img
+        {
+            filter: blur(2px);
+            -webkit-filter: blur(2px);
+        }
+        
+        .centered 
+        {
+        
+            position: absolute;
+            width: 1000px;
+            padding-top: 50px;
+            top: 27%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Trebuchet MS', Arial;
+            font-size: 90px;
+            font-weight: 500;
+            line-height: 100px;
+        }
+
+        .login-text
+        {
+            position: absolute;
+            width: 1000px;
+            top: 1%;
+            left: 96%;
+            transform: translate(-50%, -110%);
+            font-family: 'Trebuchet MS', Arial;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .logo-area
+        {
+            height:86px;
+            width:300px;
+        }
+
+        .logo-img
+        {
+            height: 150px;
+            width: 200px;
+        }
+        .box1 
+        {
+            position: absolute;
+            width: 700px;
+            padding-top: 230px;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #19498b;
+           
+            opacity: .3;
+        }
+        </STYLE>
+
+        <div class="logo-area">
+            <img class="logo-img" src="SLI_logo.png">
+        </div>
+        <div class="container">
+            <img  class="bg-img" src="sl3.png" alt="BG-img" style="width:100%;">
+            <div class="wrapper"><div class="box box1"></div></div>
+            <div class="centered">SIGN LANGUAGE INTERPRETER</div>
+            <div class="login-text"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></div>
+        </div>
+    </BODY>
+</HTML>
